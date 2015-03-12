@@ -1,0 +1,8 @@
+/bin/
+.pmd
+.project
+.settings
+.classpath
+/target
+/JBox2d.log
+/derby.log
