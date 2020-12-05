@@ -5,8 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.ActionMoveImpl;
-import au.net.hal9000.ai.PathImpl;
 import au.net.hal9000.ai.api.Action;
 import au.net.hal9000.units.Position;
 

@@ -6,8 +6,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.MemorySetImpl;
-import au.net.hal9000.ai.ModelStateAgentGoalMemorySet;
 import au.net.hal9000.ai.api.MemorySet;
 import au.net.hal9000.units.Position;
 

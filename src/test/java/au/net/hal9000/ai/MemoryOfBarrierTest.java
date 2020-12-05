@@ -7,8 +7,6 @@ import java.util.Date;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.BarrierLine;
-import au.net.hal9000.ai.MemoryOfBarrier;
 import au.net.hal9000.ai.api.Barrier;
 import au.net.hal9000.ai.api.Memory;
 

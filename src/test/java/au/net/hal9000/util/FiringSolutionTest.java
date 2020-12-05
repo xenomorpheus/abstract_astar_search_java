@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import au.net.hal9000.units.Vec2;
-import au.net.hal9000.util.FiringSolution;
 
 public class FiringSolutionTest {
 

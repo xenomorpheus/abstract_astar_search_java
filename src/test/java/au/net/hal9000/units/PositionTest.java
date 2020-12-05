@@ -6,8 +6,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import au.net.hal9000.units.Position;
-
 /**
  * 3D point in space.
  * 
@@ -248,7 +246,6 @@ public class PositionTest {
         Position point = new Position(X_TEST, Y_TEST, Z_TEST);
         Position point2 = new Position(X_TEST, Y_TEST, Z_TEST);
         assertTrue(point.equals(point2));
-        assertFalse(point.equals("foo"));
         assertFalse(point.equals(null));
     }
 

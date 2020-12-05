@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.FringeElementImpl;
-
 public class FringeElementImplTest {
 
     @Test

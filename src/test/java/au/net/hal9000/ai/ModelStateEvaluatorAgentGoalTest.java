@@ -7,8 +7,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.ModelStateAgentGoal;
-import au.net.hal9000.ai.ModelStateEvaluatorAgentGoal;
 import au.net.hal9000.ai.api.ModelState;
 import au.net.hal9000.ai.api.ModelStateEvaluator;
 import au.net.hal9000.units.Position;

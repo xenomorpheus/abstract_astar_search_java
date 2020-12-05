@@ -12,8 +12,6 @@ import java.util.TreeMap;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.SearchAStar;
-import au.net.hal9000.ai.SuccessorImpl;
 import au.net.hal9000.ai.api.Action;
 import au.net.hal9000.ai.api.ModelState;
 import au.net.hal9000.ai.api.ModelStateEvaluator;

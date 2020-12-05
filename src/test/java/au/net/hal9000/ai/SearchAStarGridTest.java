@@ -9,15 +9,7 @@ import java.awt.geom.Point2D;
 
 import org.junit.Test;
 
-import au.net.hal9000.ai.BarrierLine;
-import au.net.hal9000.ai.MemoryImpl;
-import au.net.hal9000.ai.MemoryOfBarrier;
-import au.net.hal9000.ai.MemorySetImpl;
-import au.net.hal9000.ai.ModelStateAgentGoal;
-import au.net.hal9000.ai.ModelStateAgentGoalMemorySet;
-import au.net.hal9000.ai.ModelStateEvaluatorAgentGoal;
-import au.net.hal9000.ai.SearchAStar;
-import au.net.hal9000.ai.TransitionFunctionAgentGoalImpl;
+
 import au.net.hal9000.ai.api.Action;
 import au.net.hal9000.ai.api.ActionMove;
 import au.net.hal9000.ai.api.Barrier;
