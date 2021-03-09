@@ -16,3 +16,4 @@ src/test/java/au/net/hal9000/ai/SearchAStarGridTest.java
 
 This is a Maven project with comprehensive unit tests.
 
+mvn test
