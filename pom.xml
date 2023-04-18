@@ -8,8 +8,8 @@
   <artifactId>abstract_astar_search</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-app</name>
-  <url>http://hal9000.net.au</url>
+  <name>abstract_astar_search</name>
+  <url>https://hal9000.net.au</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
