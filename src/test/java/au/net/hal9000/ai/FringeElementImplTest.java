@@ -13,7 +13,6 @@ public class FringeElementImplTest {
         assertEquals("less than", -1, fe1.compareTo(fe2));
         assertEquals("greater than", 1, fe2.compareTo(fe1));
         assertEquals("equals", 0, fe1.compareTo(fe1));
-
     }
 
 }
