@@ -4,7 +4,7 @@ import au.net.hal9000.units.Position;
 
 /**
  * Very simple actions - Agent movement only.
- * 
+ *
  * @author bruins
  * @version $Revision: 1.0 $
  */

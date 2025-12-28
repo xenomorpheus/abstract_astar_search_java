@@ -20,7 +20,7 @@ public class TransitionFunctionAgentGoalImpl implements TransitionFunction {
 
     /**
      * Method transition.
-     * 
+     *
      * @param modelState
      *            ModelState
      * @param action
@@ -43,7 +43,7 @@ public class TransitionFunctionAgentGoalImpl implements TransitionFunction {
                     "Expecting ModelStateAgentGoal but got "
                             + modelState.getClass().getSimpleName());
         }
-        
+
         ModelStateAgentGoal modelStateAgentGoal = (ModelStateAgentGoal)modelState;
         // Clone the ModelState
         ModelStateAgentGoal newModelState = modelStateAgentGoal.duplicate();

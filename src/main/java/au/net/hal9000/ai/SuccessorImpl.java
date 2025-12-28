@@ -9,7 +9,7 @@ import au.net.hal9000.ai.api.Successor;
  * 1) The resultant ModelState when the Action is performed.<br>
  * 2) A valid Action that may be performed at the current ModelState.<br>
  * 3) The cost of performing the action.<br>
- * 
+ *
  * @author bruins
  * @version $Revision: 1.0 $
  */
@@ -24,7 +24,7 @@ public class SuccessorImpl implements Successor {
 
     /**
      * Constructor.
-     * 
+     *
      * @param modelState
      *            the new state if the action is performed by the agent.
      * @param action
@@ -64,7 +64,7 @@ public class SuccessorImpl implements Successor {
 
     /**
      * {@inheritDoc}
-     * 
+     *
      * @return String
      */
     @Override

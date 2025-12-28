@@ -59,7 +59,7 @@ public final class ActionMoveImpl implements ActionMove {
     /**
      * Method toString.
      *
-     * @see au.net.hal9000.ai.api.ActionBase#toString()
+     * @see au.net.hal9000.ai.api.Action#toString()
      * @return String
      */
     @Override

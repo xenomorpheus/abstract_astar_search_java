@@ -4,7 +4,7 @@ public interface Path extends Iterable<Action> {
 
     /**
      * add action to path.
-     * 
+     *
      * @param action
      *            action to add.
      */
@@ -12,7 +12,7 @@ public interface Path extends Iterable<Action> {
 
     /**
      * Shallow clone current path.
-     * 
+     *
      * @return new path.
      */
     Path duplicate();

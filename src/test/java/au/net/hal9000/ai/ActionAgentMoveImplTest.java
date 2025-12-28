@@ -22,6 +22,4 @@ public class ActionAgentMoveImplTest {
         assertTrue(action1.equals(action2));
 
     }
-
-    
 }

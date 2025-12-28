@@ -5,7 +5,7 @@ package au.net.hal9000.ai.api;
  * 1) The resultant ModelState when the Action is performed.<br>
  * 2) A valid Action that may be performed at the current ModelState.<br>
  * 3) The cost of performing the action.<br>
- * 
+ *
  * @author bruins
  * @version $Revision: 1.0 $
  */
@@ -13,7 +13,7 @@ package au.net.hal9000.ai.api;
 public interface Successor {
 
     /**
-     * 
+     *
      * @see au.net.hal9000.ai.api.ModelState
      * @return get the new model state.
      */
@@ -26,7 +26,7 @@ public interface Successor {
     Action getAction();
 
     /**
-     * 
+     *
      * @return get the cost.
      */
     double getCost();

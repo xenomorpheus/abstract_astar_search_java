@@ -9,15 +9,15 @@ import au.net.hal9000.ai.api.Action;
 import au.net.hal9000.units.Position;
 
 /**
- * 
+ *
  * @author bruins
- * 
+ *
  * @version $Revision: 1.0 $
  */
 public class PathImplTest {
 
     /**
-     * 
+     *
      */
     @Test
     public void testEquals() {
@@ -50,9 +50,9 @@ public class PathImplTest {
 
     /**
      * Test clone.
-     * 
+     *
      * @throws CloneNotSupportedException
-     * 
+     *
      */
     @Test
     public void testClone() throws CloneNotSupportedException {

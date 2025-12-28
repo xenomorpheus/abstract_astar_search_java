@@ -32,7 +32,7 @@ import au.net.hal9000.util.Geometry;
  * unit. <br>
  * 2. Doesn't know about walls.<br>
  * 3. Does know about goals.<br>
- * 
+ *
  * @author bruins
  * @version $Revision: 1.0 $
  */
@@ -47,7 +47,7 @@ public final class EntitySuccessorFunction implements SuccessorFunction {
 
     /**
      * Constructor.
-     * 
+     *
      * @param transitionFunction
      *            a Transition Function.
      */
@@ -57,7 +57,7 @@ public final class EntitySuccessorFunction implements SuccessorFunction {
 
     /**
      * Constructor.
-     * 
+     *
      * @param transitionFunction
      *            a Transition Function.
      * @param stepSize
@@ -90,7 +90,7 @@ public final class EntitySuccessorFunction implements SuccessorFunction {
             if (null != goalPos) {
                 agentPositionDelta = goalPos.subtract(agentPos);
                 double goalDist = agentPositionDelta.length();
-                
+
                 // Limit step size to what agent can achieve
                 if (goalDist > stepSize) {
                     goalDist = stepSize;
@@ -119,7 +119,7 @@ public final class EntitySuccessorFunction implements SuccessorFunction {
 
     /**
      * Method generateSuccessors.
-     * 
+     *
      * @param modelState
      *            ModelState
      * @return Queue<Successor>
@@ -189,7 +189,7 @@ public final class EntitySuccessorFunction implements SuccessorFunction {
                         actionCost = movementPartial.length();
                         actionMove.setPositionDelta(new Position(
                                 movementPartial));
-                        
+
                         modelStateAgentGoalNew.setAgentPosition(agentPos
                                 .add(movementPartial));
                     }

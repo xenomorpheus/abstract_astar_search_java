@@ -9,7 +9,7 @@ import au.net.hal9000.ai.api.Path;
 
 /**
  * AI path of Action objects. <br>
- * 
+ *
  * @version $Revision: 1.0 $
  * @author bruins
  */
@@ -20,7 +20,7 @@ class PathImpl implements Path {
 
     /**
      * Constructor.
-     * 
+     *
      */
     public PathImpl() {
         super();
@@ -28,7 +28,7 @@ class PathImpl implements Path {
 
     /**
      * add action to path.
-     * 
+     *
      * @param action
      *            action to add.
      */
@@ -39,9 +39,9 @@ class PathImpl implements Path {
 
     /**
      * Method hashCode.
-     * 
+     *
      * @see java.lang.Object#hashCode()
-     * 
+     *
      * @return int
      */
     @Override
@@ -54,11 +54,11 @@ class PathImpl implements Path {
 
     /**
      * Method equals.
-     * 
+     *
      * @see java.lang.Object#equals(java.lang.Object)
      * @param obj
      *            Object
-     * 
+     *
      * @return boolean
      */
     @Override
@@ -101,7 +101,7 @@ class PathImpl implements Path {
 
     /**
      * Method toString.
-     * 
+     *
      * @return String
      */
     @Override

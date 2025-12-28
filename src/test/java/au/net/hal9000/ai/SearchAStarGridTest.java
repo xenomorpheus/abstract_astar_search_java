@@ -24,9 +24,9 @@ import au.net.hal9000.item.EntitySuccessorFunction;
 import au.net.hal9000.units.Position;
 
 /**
- * 
+ *
  * Testing A* Search in a grid based system using Position objects.
- * 
+ *
  * @author bruins
  * @version $Revision: 1.0 $
  */
