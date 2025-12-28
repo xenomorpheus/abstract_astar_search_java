@@ -5,7 +5,7 @@ import au.net.hal9000.units.Position;
 
 /**
  * Very simple actions - Agent movement only.
- * 
+ *
  * @author bruins
  * @version $Revision: 1.0 $
  */
@@ -29,7 +29,7 @@ public final class ActionMoveImpl implements ActionMove {
 
     /**
      * Constructor.
-     * 
+     *
      * @param delta
      *            movement amount.
      */
@@ -58,8 +58,8 @@ public final class ActionMoveImpl implements ActionMove {
 
     /**
      * Method toString.
-     * 
-     * @see au.net.hal9000.ai.api.Action#toString()
+     *
+     * @see au.net.hal9000.ai.api.ActionBase#toString()
      * @return String
      */
     @Override
@@ -73,7 +73,7 @@ public final class ActionMoveImpl implements ActionMove {
 
     /**
      * Method hashCode.
-     * 
+     *
      * @return int
      */
     @Override
@@ -86,10 +86,10 @@ public final class ActionMoveImpl implements ActionMove {
 
     /**
      * Method equals.
-     * 
+     *
      * @param obj
      *            Object
-     * 
+     *
      * @return boolean
      */
     @Override
